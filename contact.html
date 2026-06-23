@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Chavez Produce LLC</title>
+  <meta name="description" content="Connect with Chavez Produce LLC about Hass avocado availability, pricing, and export partnerships from Jalisco, Mexico.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-mark">CP</div>
+        <div>
+          <p class="brand-name">Chavez Produce LLC</p>
+          <p class="brand-tag">Jalisco, Mexico — Est. Export Grower</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div class="container">
+        <p class="breadcrumb">Get in Touch</p>
+        <h1>Let's Discuss <span class="accent">Your Supply Program</span></h1>
+        <p>We welcome inquiries from importers, distributors, wholesalers, retailers, and foodservice suppliers seeking a dependable Hass avocado source.</p>
+      </div>
+    </section>
+
+    <section class="section-pad bg-ivory">
+      <div class="container contact-content">
+        <div class="contact-info-card reveal">
+          <h2>Chavez Produce LLC</h2>
+          <p style="color:rgba(255,252,246,0.8);">Family-owned Hass avocado grower and exporter based in Jalisco, Mexico.</p>
+
+          <div class="contact-detail">
+            <div class="feature-icon">&#128222;</div>
+            <div>
+              <strong>Phone</strong>
+              <p>915-309-2263</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="feature-icon">&#128172;</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>915-309-2263</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="feature-icon">&#9993;</div>
+            <div>
+              <strong>Email</strong>
+              <p>abigailchavez20@yahoo.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="feature-icon">&#128205;</div>
+            <div>
+              <strong>Location</strong>
+              <p>Jalisco, Mexico</p>
+            </div>
+          </div>
+
+          <div class="contact-quick-actions">
+            <a href="https://wa.me/19153092263" target="_blank" rel="noopener" class="button button-primary">WhatsApp Us</a>
+            <a href="mailto:abigailchavez20@yahoo.com" class="button button-secondary">Email Us</a>
+          </div>
+        </div>
+
+        <div class="contact-form-card reveal">
+          <p class="section-label">Buyer Inquiry</p>
+          <h2 style="margin-top:0;">Request Availability &amp; Pricing</h2>
+          <p style="color:var(--muted); margin-top:0.5rem;">Fields marked required help us route your inquiry to the right team member quickly.</p>
+
+          <form id="contactForm" class="contact-form" novalidate style="margin-top:1.75rem;">
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+                <span class="form-error">Please enter your name.</span>
+              </div>
+              <div class="form-row">
+                <label for="company">Company *</label>
+                <input type="text" id="company" name="company" required>
+                <span class="form-error">Please enter your company name.</span>
+              </div>
+              <div class="form-row">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+                <span class="form-error">Please enter a valid email address.</span>
+              </div>
+              <div class="form-row">
+                <label for="phone">Phone *</label>
+                <input type="tel" id="phone" name="phone" required>
+                <span class="form-error">Please enter a valid phone number.</span>
+              </div>
+              <div class="form-row">
+                <label for="buyerType">Buyer Type *</label>
+                <select id="buyerType" name="buyerType" required>
+                  <option value="">Select one</option>
+                  <option>Importer</option>
+                  <option>Distributor</option>
+                  <option>Wholesaler</option>
+                  <option>Retailer</option>
+                  <option>Foodservice Buyer</option>
+                  <option>Other</option>
+                </select>
+                <span class="form-error">Please select a buyer type.</span>
+              </div>
+              <div class="form-row">
+                <label for="volume">Estimated Monthly Volume</label>
+                <input type="text" id="volume" name="volume" placeholder="e.g. 2 containers / month">
+              </div>
+              <div class="form-row full-width">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your sourcing needs, destination, and timeline."></textarea>
+                <span class="form-error">Please enter a message.</span>
+              </div>
+            </div>
+            <button type="submit" class="button button-primary button-block">Send Inquiry</button>
+            <div class="form-success" id="formSuccess">
+              &#10003; Thank you — your inquiry has been received. Our team will respond shortly.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ BUSINESS DETAILS ============================ -->
+    <section class="section-pad bg-cream">
+      <div class="container">
+        <div class="section-intro reveal">
+          <p class="section-label">Business Details</p>
+          <h2>Built for Serious Buyer Relationships</h2>
+        </div>
+        <div class="business-cards reveal-stagger">
+          <div class="business-card">
+            <div class="feature-icon">&#127760;</div>
+            <h4>Export Region</h4>
+            <p>Jalisco, Mexico — serving U.S. buyers nationwide.</p>
+          </div>
+          <div class="business-card">
+            <div class="feature-icon">&#9201;</div>
+            <h4>Response Time</h4>
+            <p>Buyer inquiries are typically answered within 1 business day.</p>
+          </div>
+          <div class="business-card">
+            <div class="feature-icon">&#128196;</div>
+            <h4>Documentation</h4>
+            <p>Full export and phytosanitary documentation provided per shipment.</p>
+          </div>
+          <div class="business-card">
+            <div class="feature-icon">&#129309;</div>
+            <h4>Partnership Model</h4>
+            <p>Long-term volume programs and one-time orders both welcome.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">Chavez Produce LLC</p>
+          <p>Premium Hass Avocado Exporter — Jalisco, Mexico</p>
+        </div>
+        <div class="footer-contact">
+          <p>Phone / WhatsApp: 915-309-2263</p>
+          <p>Email: abigailchavez20@yahoo.com</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <p class="copyright">&copy; <span id="currentYear"></span> Chavez Produce LLC. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

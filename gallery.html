@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Chavez Produce LLC</title>
+  <meta name="description" content="A visual look inside Chavez Produce LLC's orchards, harvest, packing facility, and export logistics in Jalisco, Mexico.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-mark">CP</div>
+        <div>
+          <p class="brand-name">Chavez Produce LLC</p>
+          <p class="brand-tag">Jalisco, Mexico — Est. Export Grower</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero gallery-hero">
+      <div class="container">
+        <p class="breadcrumb">Visual Gallery</p>
+        <h1>Inside Our <span class="accent">Export Operation</span></h1>
+        <p>From orchard to port — a look at the orchards, harvest, packing, logistics, and product behind every shipment.</p>
+      </div>
+    </section>
+
+    <section class="section-pad bg-ivory">
+      <div class="container">
+        <div class="gallery-filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="orchard">Orchard</button>
+          <button class="filter-btn" data-filter="harvest">Harvest</button>
+          <button class="filter-btn" data-filter="packing">Packing</button>
+          <button class="filter-btn" data-filter="logistics">Logistics</button>
+          <button class="filter-btn" data-filter="product">Product</button>
+        </div>
+
+        <div class="masonry-grid reveal">
+          <div class="masonry-item tall" data-category="orchard">
+            <img src="images/avocados-tree-canopy.jpg" alt="Avocado orchard grove">
+            <div class="overlay"><span class="cat">Orchard</span><span class="title">Highland Groves of Jalisco</span></div>
+          </div>
+          <div class="masonry-item" data-category="orchard">
+            <img src="images/orchard-with-banana-trees.jpg" alt="Aerial view of cultivated orchard rows">
+            <div class="overlay"><span class="cat">Orchard</span><span class="title">Cultivated Hillsides</span></div>
+          </div>
+          <div class="masonry-item wide" data-category="orchard">
+            <img src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=1400&q=80" alt="Wide aerial view of farmland">
+            <div class="overlay"><span class="cat">Orchard</span><span class="title">Acres of Export-Ready Supply</span></div>
+          </div>
+          <div class="masonry-item" data-category="harvest">
+            <img src="images/avocado-hand-multiple.jpg" alt="Hand-harvested Hass avocados">
+            <div class="overlay"><span class="cat">Harvest</span><span class="title">Hand-Harvested Fruit</span></div>
+          </div>
+          <div class="masonry-item tall" data-category="harvest">
+            <img src="images/avocados-on-tree-three.jpg" alt="Avocados freshly harvested">
+            <div class="overlay"><span class="cat">Harvest</span><span class="title">Fresh Off the Tree</span></div>
+          </div>
+          <div class="masonry-item" data-category="packing">
+            <img src="images/avocados-boxes-packing.jpg" alt="Produce packing facility">
+            <div class="overlay"><span class="cat">Packing</span><span class="title">Export Packing Facility</span></div>
+          </div>
+          <div class="masonry-item wide" data-category="packing">
+            <img src="images/avocados-basket-retail.jpg" alt="Avocados inspected before packing">
+            <div class="overlay"><span class="cat">Packing</span><span class="title">Hand-Inspected Before Packing</span></div>
+          </div>
+          <div class="masonry-item" data-category="logistics">
+            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=900&q=80" alt="Reefer truck for cold-chain logistics">
+            <div class="overlay"><span class="cat">Logistics</span><span class="title">Cold-Chain Reefer Trucks</span></div>
+          </div>
+          <div class="masonry-item tall" data-category="logistics">
+            <img src="images/avocado-hand-single.jpg" alt="Hass avocados ready for export">
+            <div class="overlay"><span class="cat">Logistics</span><span class="title">Port-Ready Containers</span></div>
+          </div>
+          <div class="masonry-item" data-category="logistics">
+            <img src="images/avocado-new-growth.jpg" alt="Avocados ready for export shipment">
+            <div class="overlay"><span class="cat">Logistics</span><span class="title">Export Shipment Coordination</span></div>
+          </div>
+          <div class="masonry-item" data-category="product">
+            <img src="images/avocado-half-premium.jpg" alt="Premium Hass avocados">
+            <div class="overlay"><span class="cat">Product</span><span class="title">Premium Hass Selection</span></div>
+          </div>
+          <div class="masonry-item wide" data-category="product">
+            <img src="images/avocado-halves-kitchen.jpg" alt="Avocado halves cut open showing quality">
+            <div class="overlay"><span class="cat">Product</span><span class="title">Graded for Export</span></div>
+          </div>
+          <div class="masonry-item" data-category="product">
+            <img src="images/avocado-half-premium.jpg" alt="Avocado halves showcasing quality">
+            <div class="overlay"><span class="cat">Product</span><span class="title">Rich Texture, Consistent Quality</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-cta container">
+      <div class="cta-panel reveal">
+        <h2>Want to See the Operation in Person?</h2>
+        <p>We welcome serious buyers to discuss site visits, sourcing programs, and partnership opportunities.</p>
+        <a href="contact.html" class="button button-primary">Contact Our Team</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">Chavez Produce LLC</p>
+          <p>Premium Hass Avocado Exporter — Jalisco, Mexico</p>
+        </div>
+        <div class="footer-contact">
+          <p>Phone / WhatsApp: 915-309-2263</p>
+          <p>Email: abigailchavez20@yahoo.com</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <p class="copyright">&copy; <span id="currentYear"></span> Chavez Produce LLC. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
